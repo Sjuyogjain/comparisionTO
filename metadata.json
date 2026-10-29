@@ -1,0 +1,6 @@
+{
+  "name": "ThinkOwl vs CX Market Alternatives - AMPM Evaluation",
+  "description": "Executive comparison and capability matrix of ThinkOwl versus CX market alternatives (BiteSpeed, AiSensy, Freshdesk, Interakt, WATI) mapped to AMPM Chat Support & Unified CRM BRDs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
