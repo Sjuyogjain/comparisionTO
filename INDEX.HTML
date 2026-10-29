@@ -1,0 +1,1257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">/**</p>
+<p class="p1"><span class="Apple-converted-space"> </span>* @license</p>
+<p class="p1"><span class="Apple-converted-space"> </span>* SPDX-License-Identifier: Apache-2.0</p>
+<p class="p1"><span class="Apple-converted-space"> </span>*/</p>
+<p class="p2"><br></p>
+<p class="p1">export default function App() {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>return (</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;main className="min-h-screen bg-slate-100/80 py-8 px-4 sm:px-6 lg:px-10 print:p-0 print:bg-white text-slate-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>{/* Print &amp; PDF Utility Guidance Banner - non-interactive informational notice */}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;aside className="max-w-7xl mx-auto mb-6 p-4 rounded-xl bg-white border border-slate-200 shadow-sm print:hidden flex items-center justify-between text-xs text-slate-600"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div className="flex items-center gap-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span className="font-semibold text-slate-900"&gt;Executive Report Layout:&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;span&gt;This document is fully structured in semantic HTML, styled for both on-screen review and high-fidelity PDF export (Cmd/Ctrl + P &amp;rarr; Save as PDF).&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div className="font-mono text-slate-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Target: AMPM Luxury Retail · 2026 Evaluation</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/aside&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>{/* Main Document Container (A4 / Presentation Ready) */}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;article className="max-w-7xl mx-auto bg-white border border-slate-200/90 shadow-xl rounded-2xl overflow-hidden print:border-none print:shadow-none print:rounded-none"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* Cover / Executive Document Header */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;header className="border-b border-slate-200 bg-gradient-to-b from-slate-900 to-slate-950 text-white p-8 md:p-12 print:bg-slate-950 print:text-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-8 border-b border-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="flex items-center gap-3 text-xs tracking-widest uppercase font-semibold text-indigo-400 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;Enterprise CX Vendor Evaluation&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span aria-hidden="true"&gt;/&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;AMPM Omnichannel Strategy&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h1 className="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-4 leading-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>ThinkOwl vs. CX Market Alternatives for AMPM</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-base md:text-lg text-slate-300 max-w-3xl font-normal leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Strategic comparative analysis mapped directly to AMPM’s &lt;strong className="text-white font-semibold"&gt;Chat Support BRD&lt;/strong&gt; and &lt;strong className="text-white font-semibold"&gt;Unified CRM BRD&lt;/strong&gt; across 6 Shopify storefronts, 4 flagship luxury offline stores, and international expansion desks.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Document Metadata Panel */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="shrink-0 bg-slate-800/80 border border-slate-700/80 rounded-xl p-5 text-xs space-y-2.5 text-slate-300 md:min-w-[260px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-400 block uppercase tracking-wider text-[10px] font-semibold"&gt;Client Organization&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;strong className="text-white text-sm font-semibold"&gt;AMPM Fashions Pvt. Ltd.&lt;/strong&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-400 block uppercase tracking-wider text-[10px] font-semibold"&gt;Evaluated Scope&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-200"&gt;Omnichannel Chat &amp;amp; Unified CRM&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-400 block uppercase tracking-wider text-[10px] font-semibold"&gt;Infrastructure Scale&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-200"&gt;6 Shopify Stores + 4 Offline Boutiques&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-400 block uppercase tracking-wider text-[10px] font-semibold"&gt;Evaluation Date&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-200"&gt;October 2026&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-400 block uppercase tracking-wider text-[10px] font-semibold"&gt;Strategic Recommendation&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-emerald-400 font-bold"&gt;ThinkOwl (Best-Fit Core Platform)&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>{/* Executive Strategic Premise Callout */}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="mt-8 bg-indigo-950/60 border border-indigo-500/30 rounded-xl p-6 text-slate-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 className="text-sm font-bold uppercase tracking-wider text-indigo-300 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Executive Premise &amp;amp; Core Positioning</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p className="text-sm md:text-base leading-relaxed text-slate-200 font-normal"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;strong className="text-white font-semibold"&gt;ThinkOwl is positioned as the strongest fit&lt;/strong&gt; because it treats customer service as &lt;em className="text-indigo-200 font-semibold not-italic"&gt;work resolution&lt;/em&gt; (not just messaging), unifies channels + customer 360° + workflows + reporting in one layer, and directly addresses AMPM’s acute pain points: &lt;strong className="text-white font-semibold"&gt;Instagram reliability, Shopify + offline data unification, luxury personalization, multi-store/country desks&lt;/strong&gt;, and &lt;strong className="text-white font-semibold"&gt;accurate performance tracking&lt;/strong&gt;.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* Executive Summary Metrics Strip */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section className="bg-slate-50 border-b border-slate-200 p-6 md:p-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-2 md:grid-cols-4 gap-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border-r border-slate-200 pr-4 last:border-r-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-semibold uppercase tracking-wider text-slate-500 block"&gt;Agent Daily Efficiency&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-2xl md:text-3xl font-extrabold text-indigo-900 tracking-tight block mt-1"&gt;2–3 Hours&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs text-slate-600 mt-1 block"&gt;Saved per agent daily via Agent Assist &amp;amp; auto-routing&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border-r border-slate-200 pr-4 last:border-r-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-semibold uppercase tracking-wider text-slate-500 block"&gt;Omnichannel Scope&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight block mt-1"&gt;100% Unified&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs text-slate-600 mt-1 block"&gt;Email, WhatsApp, IG DMs/Comments, FB, Phone &amp;amp; Web&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border-r border-slate-200 pr-4 last:border-r-0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-semibold uppercase tracking-wider text-slate-500 block"&gt;Unified Data Footprint&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight block mt-1"&gt;6 + 4 Nodes&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs text-slate-600 mt-1 block"&gt;6 Shopify storefronts + 4 physical boutiques centralized&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-semibold uppercase tracking-wider text-slate-500 block"&gt;Deployment Timeline&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-2xl md:text-3xl font-extrabold text-emerald-800 tracking-tight block mt-1"&gt;4–8 Weeks&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs text-slate-600 mt-1 block"&gt;Rapid time-to-value with dedicated India-based support&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* SECTION 1: High-Level Lens Comparison */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section className="p-8 md:p-12 border-b border-slate-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span className="text-xs uppercase tracking-wider font-bold text-indigo-700"&gt;Section 1&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 className="text-2xl md:text-3xl font-extrabold text-slate-950 mt-1 tracking-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>High-Level Lens Comparison</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p className="text-sm text-slate-600 mt-2 max-w-4xl leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Side-by-side strategic analysis comparing ThinkOwl against the five major alternative CX platforms under consideration for AMPM: BiteSpeed, AiSensy, Freshdesk, Interakt, and WATI.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>{/* Table 1: Lens Comparison */}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="overflow-x-auto border border-slate-200 rounded-xl shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;table className="w-full text-left text-xs md:text-sm border-collapse"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-900 text-white divide-x divide-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[14%] bg-slate-950"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Evaluation Lens</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[18%] bg-indigo-900 text-indigo-100 border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>ThinkOwl (Recommended)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[14%]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>BiteSpeed</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[13%]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>AiSensy</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[14%]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Freshdesk</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[13%]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Interakt</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[14%]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WATI</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;tbody className="divide-y divide-slate-200"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Core focus</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>AI-driven customer service + workflow automation (resolves the work)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>E-commerce marketing, sales, support</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp marketing, bots, live agent</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Helpdesk / omnichannel service</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp + Instagram engagement</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp messaging + team inbox</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50 bg-slate-50/20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Best for AMPM</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-semibold align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Full service operations + CRM-like 360° + journeys</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Marketing journeys</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp-centric campaigns</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Ticket-heavy support</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Social engagement</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Basic WhatsApp inbox</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Channels</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Email, chat, WhatsApp, social (FB/IG + comments/stories), phone, custom, mobile app, live chat widget</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp, voice, email, SMS, social, web chat</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Mainly WhatsApp</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Email, web chat, WhatsApp, FB, IG (Omni add-on)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp, Instagram</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp + limited social/web</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50 bg-slate-50/20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Customer history</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-semibold align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>One connected history across all channels</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Conversation-level</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Mostly WhatsApp threads</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Ticket-based</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Chat-level</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Team inbox history</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>AI for agents</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Agent Assist (contextual suggestions + reply drafting)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Bots for marketing/sales</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp AI agents + bot flows</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Freddy AI (plan/add-on dependent)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Chatbot / AnswerBot</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Copilot (credits / add-on)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50 bg-slate-50/20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>AI agents</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>For eligible workflows with seamless human handoff</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>E-commerce AI agents</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp AI agents</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Freddy AI Agent (plan-dependent)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Chatbot-led</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Astra AI Agents (may be add-on)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Workflows</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Visual low-code/no-code (trigger &amp;rarr; action &amp;rarr; status &amp;rarr; exception)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Journeys + routing</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>No-code bot flows + broadcasts</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Ticket routing + assignment rules</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Bot flows + campaign workflows</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Bots, keyword rules, triggers</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50 bg-slate-50/20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Business rules</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Configurable rules + escalations per team/market</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Routing rules</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Basic bot logic</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Assignment + SLA rules</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Keyword + trigger rules</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Keyword rules</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Human handoff</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-semibold align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Agent receives full history + next step (not a cold ticket)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Routing to agents</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Bot to live agent</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Ticket assignment</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Bot to agent</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Bot to operator</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50 bg-slate-50/20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>SLA &amp;amp; escalation</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-semibold align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Ageing, ownership, escalation visible + breach alerts</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Workload view</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Limited</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Strong SLA automation</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Limited</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Limited</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Reports</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Customizable, clickable, drill into channel/team/agent (last 7/15/custom dates)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Agent analytics, workload</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Broadcast + click analytics</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Dashboards (plan-limited)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Conversation + agent analytics</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Operator reports (plan limits)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50 bg-slate-50/20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Campaigns + service</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-semibold align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Both in one platform</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Strong cross-channel marketing</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Broadcasts, segmentation, ads</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Mostly service (separate campaign tool likely)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WhatsApp campaigns</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Broadcasts + automation</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Order/delivery context</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Order/shipping data in the case via supported integrations</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Strong e-commerce focus</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Via integrations</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Via connectors</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Via integrations</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Via integrations</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50 bg-slate-50/20"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Multi-country / desks</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-semibold align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Country-specific desks, multiple teams</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Not highlighted</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Not highlighted</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Groups + portals</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Roles by plan</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Users by plan</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/50"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="row" className="p-3.5 font-bold text-slate-900 bg-slate-50/70 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Pricing clarity</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 bg-indigo-50/50 text-indigo-950 font-medium align-top border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Included capabilities, transparent pricing</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Subscription + channels + usage + implementation</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Subscription + Meta charges</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Omni plan + AI add-ons + connectors</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Plan inclusions + roles + Meta fees</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3.5 text-slate-700 align-top"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Users + AI credits + Meta fees</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* SECTION 2: Capability Matrix (BRD Alignment) */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section className="p-8 md:p-12 border-b border-slate-200 bg-slate-50/40"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs uppercase tracking-wider font-bold text-indigo-700"&gt;Section 2&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h2 className="text-2xl md:text-3xl font-extrabold text-slate-950 mt-1 tracking-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Capability Matrix (BRD Alignment)</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-sm text-slate-600 mt-2 max-w-3xl leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Exhaustive mapping against every functional requirement specified in AMPM’s Chat Support BRD and Unified CRM BRD.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Accessible Legend */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="bg-white border border-slate-200 rounded-xl p-3.5 text-xs flex flex-wrap items-center gap-5 shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="font-semibold text-slate-700"&gt;Legend:&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="inline-flex items-center gap-1.5 font-medium text-emerald-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-emerald-700 text-base leading-none"&gt;●&lt;/span&gt; Built-in &amp;amp; Core</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="inline-flex items-center gap-1.5 font-medium text-amber-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-amber-600 text-base leading-none"&gt;◐&lt;/span&gt; Partial / Plan or Add-on Dependent</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="inline-flex items-center gap-1.5 font-medium text-slate-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-slate-400 text-base leading-none"&gt;○&lt;/span&gt; Not a Highlighted Strength</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>{/* Matrix Table */}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="overflow-x-auto border border-slate-200 rounded-xl bg-white shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;table className="w-full text-left text-xs md:text-sm border-collapse"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-900 text-white divide-x divide-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[35%] bg-slate-950"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Capability (from AMPM BRDs)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[13%] text-center bg-indigo-900 text-indigo-100 border-l-2 border-indigo-400"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>ThinkOwl</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[10%] text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>BiteSpeed</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[10%] text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>AiSensy</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[11%] text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Freshdesk</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[10%] text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Interakt</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th scope="col" className="p-3.5 font-bold uppercase tracking-wider text-[11px] w-[11%] text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>WATI</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;tbody className="divide-y divide-slate-200"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Channel Coverage */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>1. Channel Coverage</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;WhatsApp Business API (official)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Email (in + out)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Instagram DMs + Comments + Story mentions&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Facebook DMs + Comments&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Call / phone&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Mobile app + Live chat widget&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Single unified inbox (no silos)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Agent Management */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>2. Agent Management</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Shift-based assignment + login/logout timestamps&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Availability (online/offline/away)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Role-based (admin / supervisor / agent)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Supervisor monitor + take-over&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Collision detection&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Chat Handling &amp; Routing */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>3. Chat Handling &amp;amp; Routing</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Auto first response (per channel) + blackout hours&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Manual override + auto-assignment by channel/tag/availability&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Keyword-triggered routing&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;SLA timers + breach alerts + escalation&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Canned / quick responses&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Platform Issues to Resolve */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>4. Platform Issues to Resolve (AMPM Pain Points)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Instagram image tagging visibility + native reply sync&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Accurate chat/agent performance (7/15/custom dates)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Customer 360 Profile */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>5. Customer 360° Profile</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Purchase history (Shopify orders, dates, items, value)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Category preference, returns/exchanges, geography&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Custom fields (size, styling) + segment tags (VIP, etc.)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;LTV + last interaction date/channel&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Visible inside chat window&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Automation &amp; Workflows */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>6. Automation &amp;amp; Workflows</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Trigger-based (order confirmed/shipped/delivered/return)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Chatbot flows + human handoff&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;After-hours auto-reply + sentiment flagging&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Journey builder + multi-channel orchestration&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Reporting &amp; Analytics */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>7. Reporting &amp;amp; Analytics</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Agent metrics (FRT, resolution, volume)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Channel-wise volume + CSAT + SLA compliance&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Exportable (CSV/Excel)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>{/* Subcategory: Unified CRM Needs */}</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="bg-slate-100 text-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;th colSpan={7} scope="colgroup" className="py-2.5 px-3.5 font-extrabold uppercase tracking-wider text-[11px] text-slate-700"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>8. Unified CRM Needs (Omnichannel Retail Architecture)</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Online + offline customer data centralization&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Segmentation (purchasers, abandoned cart, category/product behaviour)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-amber-700"&gt;◐&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Geo-wise dashboards + campaign tracking&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;tr className="divide-x divide-slate-200 hover:bg-slate-50/60"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 pl-6 font-medium text-slate-800"&gt;Required journeys (welcome, abandoned cart, post-purchase, win-back)&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center bg-indigo-50/50 font-bold text-emerald-800 border-l-2 border-indigo-400"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-normal text-slate-400"&gt;○&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;td className="p-3 text-center font-bold text-emerald-800"&gt;●&lt;/td&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/tr&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* SECTION 3: Direct BRD Match Highlights – Why ThinkOwl Wins */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section className="p-8 md:p-12 border-b border-slate-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span className="text-xs uppercase tracking-wider font-bold text-indigo-700"&gt;Section 3&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 className="text-2xl md:text-3xl font-extrabold text-slate-950 mt-1 tracking-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Direct BRD Match Highlights – Why ThinkOwl Wins</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p className="text-sm text-slate-600 mt-2 max-w-4xl leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Granular analysis of where each alternative falls short against AMPM’s specific luxury retail operational needs, and why ThinkOwl delivers superior business outcomes.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-1 md:grid-cols-2 gap-6"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Match 1: vs BiteSpeed */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;h3 className="text-base font-bold text-slate-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>ThinkOwl vs. BiteSpeed</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>E-commerce Marketing vs. Full Service</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="space-y-3 text-xs md:text-sm text-slate-700 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-slate-900 font-semibold"&gt;Where BiteSpeed falls short:&lt;/strong&gt; Excellent for top-of-funnel marketing journeys, WhatsApp popups, and conversational sales, but significantly weaker on critical post-purchase service work (complex returns, multi-piece exchanges, escalations, cross-channel interaction history, agent collision detection, and full Instagram comment/story reliability).</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-indigo-900 font-semibold"&gt;How ThinkOwl solves it:&lt;/strong&gt; ThinkOwl owns the &lt;em className="text-indigo-950 font-semibold not-italic"&gt;full resolution loop&lt;/em&gt;. An agent handling an exchange has full access to the customer’s Shopify orders, store credit status, previous WhatsApp queries, and offline boutique preferences, with visual low-code workflows routing tasks automatically to logistics or luxury personal stylists.</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-indigo-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;Core Distinction&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="bg-indigo-50 text-indigo-700 py-1 px-2.5 rounded text-[11px]"&gt;Work Resolution vs. Chat Campaigning&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Match 2: vs AiSensy */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;h3 className="text-base font-bold text-slate-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>ThinkOwl vs. AiSensy</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Single-Channel vs. True Omnichannel</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="space-y-3 text-xs md:text-sm text-slate-700 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-slate-900 font-semibold"&gt;Where AiSensy falls short:&lt;/strong&gt; Strong WhatsApp-centric broadcast tool, but severely siloed. It lacks official inbound/outbound email management, Instagram DMs, comment streams, story mentions, Facebook messaging, voice call logging, unified inboxes, offline customer profile merging, and strict SLA escalation logic.</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-indigo-900 font-semibold"&gt;How ThinkOwl solves it:&lt;/strong&gt; AMPM customers communicate across email (concierge inquiries), Instagram (VIP styling requests), and WhatsApp (order updates). ThinkOwl binds all touchpoints into one continuous timeline so customer service doesn’t force clients to repeat themselves.</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-indigo-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;Core Distinction&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="bg-indigo-50 text-indigo-700 py-1 px-2.5 rounded text-[11px]"&gt;Full Omnichannel Depth vs. WhatsApp Island&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Match 3: vs Freshdesk */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;h3 className="text-base font-bold text-slate-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>ThinkOwl vs. Freshdesk</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Siloed Add-ons vs. Unified Architecture</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="space-y-3 text-xs md:text-sm text-slate-700 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-slate-900 font-semibold"&gt;Where Freshdesk falls short:&lt;/strong&gt; Solid traditional ticketing system, but achieving AMPM’s requirements requires the expensive Freshdesk Omni plan plus multiple paid add-ons (Freddy AI, third-party connectors, and separate campaign software). Its Instagram image tagging/reply sync and continuous conversational history remain brittle.</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-indigo-900 font-semibold"&gt;How ThinkOwl solves it:&lt;/strong&gt; ThinkOwl delivers an integrated, modern service layer without the bloat. Built-in Agent Assist, native Instagram reliability, visual workflow engines, and transparent license tiers prevent unexpected escalating SaaS and connector expenses.</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-indigo-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;Core Distinction&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="bg-indigo-50 text-indigo-700 py-1 px-2.5 rounded text-[11px]"&gt;Modern Work Engine vs. Legacy Ticket Fragmentation&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Match 4: vs Interakt &amp; WATI */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;article className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="flex items-center justify-between pb-3 mb-3 border-b border-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;h3 className="text-base font-bold text-slate-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>ThinkOwl vs. Interakt / WATI</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>Broadcast Inboxes vs. Enterprise Governance</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div className="space-y-3 text-xs md:text-sm text-slate-700 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-slate-900 font-semibold"&gt;Where Interakt &amp;amp; WATI fall short:&lt;/strong&gt; Competent at WhatsApp marketing, catalog broadcasting, and simple live agent chat. However, they lack essential enterprise governance: shift-based login/logout tracking, agent collision detection, supervisor live monitoring with silent whisper and takeover, multi-country desks, and granular SLA breach workflows.</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;strong className="text-indigo-900 font-semibold"&gt;How ThinkOwl solves it:&lt;/strong&gt; ThinkOwl transforms conversational engagement into operational luxury excellence. Supervisors have instant oversight across retail desks, workload rebalancing, and drill-down analytics across 7/15/custom day intervals.</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-indigo-900"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span&gt;Core Distinction&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="bg-indigo-50 text-indigo-700 py-1 px-2.5 rounded text-[11px]"&gt;Enterprise Operations vs. Basic Shared Inbox&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* SECTION 4: Key Takeaways for AMPM Co-Founders &amp; Management */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section className="p-8 md:p-12 border-b border-slate-200 bg-slate-50/30"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span className="text-xs uppercase tracking-wider font-bold text-indigo-700"&gt;Section 4&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 className="text-2xl md:text-3xl font-extrabold text-slate-950 mt-1 tracking-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Key Strategic Takeaways for AMPM Co-Founders &amp;amp; Management</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p className="text-sm text-slate-600 mt-2 max-w-4xl leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Why ThinkOwl represents the highest-conviction operational investment for AMPM’s luxury brand trajectory, international footprint, and customer retention goals.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Pillar 1 */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="text-indigo-700 font-mono text-xs font-bold tracking-widest uppercase mb-1"&gt;Pillar 01&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-base font-bold text-slate-900 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Multi-Brand &amp;amp; Multi-Country Desks</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-xs md:text-sm text-slate-600 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Purpose-built country desks, segregated team routing, and specialized AI triage handle AMPM’s &lt;strong&gt;6 Shopify storefronts + 4 offline flagship boutiques&lt;/strong&gt; without creating cross-market data silos or operational confusion.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Pillar 2 */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="text-indigo-700 font-mono text-xs font-bold tracking-widest uppercase mb-1"&gt;Pillar 02&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-base font-bold text-slate-900 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Rapid Implementation &amp;amp; Scalability</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-xs md:text-sm text-slate-600 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>A streamlined &lt;strong&gt;4–8 week deployment cycle&lt;/strong&gt; delivers rapid time-to-value across domestic and global storefronts, with pre-engineered connectors for Shopify, WhatsApp Cloud API, and boutique POS systems.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Pillar 3 */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="text-indigo-700 font-mono text-xs font-bold tracking-widest uppercase mb-1"&gt;Pillar 03&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-base font-bold text-slate-900 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Strong ROI &amp;amp; Quantified Efficiency</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-xs md:text-sm text-slate-600 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Documented &lt;strong&gt;2–3 hours saved per concierge agent daily&lt;/strong&gt; through contextual Agent Assist suggestions, automated case enrichment, collision prevention, and zero-loss human handoffs.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Pillar 4 */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="text-indigo-700 font-mono text-xs font-bold tracking-widest uppercase mb-1"&gt;Pillar 04&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-base font-bold text-slate-900 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Enhanced Luxury Customer Experience</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-xs md:text-sm text-slate-600 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Unified &lt;strong&gt;Customer 360° dossier inside the active conversation&lt;/strong&gt; (Shopify order items, offline store visits, silhouette preferences, LTV, and VIP tags) empowers agents to provide bespoke, white-glove styling advisory.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Pillar 5 */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="text-indigo-700 font-mono text-xs font-bold tracking-widest uppercase mb-1"&gt;Pillar 05&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-base font-bold text-slate-900 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Seamless Integration &amp;amp; Enterprise Security</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-xs md:text-sm text-slate-600 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Flexible REST/GraphQL APIs for bi-directional Shopify order sync, real-time middleware support, and strict role-based access control ensure luxury VIP patron privacy and airtight compliance.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>{/* Pillar 6 */}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-6 bg-white shadow-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="text-indigo-700 font-mono text-xs font-bold tracking-widest uppercase mb-1"&gt;Pillar 06&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-base font-bold text-slate-900 mb-2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Dedicated Local India Support</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p className="text-xs md:text-sm text-slate-600 leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Hands-on, India-based enterprise implementation and after-sales team ensuring hands-on staff training, zero transition downtime, proactive performance audits, and immediate escalation turnaround.</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>{/* Strategic Conclusion Callout */}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="mt-8 p-6 rounded-xl bg-slate-900 text-white border border-slate-800"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;span className="text-indigo-400 font-mono text-xs uppercase tracking-wider block font-semibold mb-1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>Executive Bottom Line</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p className="text-base md:text-lg font-medium text-slate-100"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>&lt;em className="text-white font-bold not-italic"&gt;"Most tools answer customers. ThinkOwl resolves the work."&lt;/em&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p className="text-xs md:text-sm text-slate-300 mt-1 max-w-3xl leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                  </span>For AMPM’s combination of omnichannel service reliability, Customer 360° depth, automation, and multi-store luxury operational standards, ThinkOwl is the clearest, most robust best-fit choice.</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div className="shrink-0 bg-indigo-900/60 border border-indigo-500/40 px-4 py-2.5 rounded-lg text-xs font-semibold text-indigo-200 text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Recommended Action: Proceed to ThinkOwl Sandbox Pilot</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* SECTION 5: Proposed Implementation Phasing (Week 1 - 8) */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section className="p-8 md:p-12 border-b border-slate-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span className="text-xs uppercase tracking-wider font-bold text-indigo-700"&gt;Section 5&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 className="text-2xl md:text-3xl font-extrabold text-slate-950 mt-1 tracking-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>AMPM Implementation Phasing &amp;amp; Rollout Roadmap</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p className="text-sm text-slate-600 mt-2 max-w-4xl leading-relaxed"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Structured 4-stage deployment architecture designed for zero disruption to ongoing boutique sales and e-commerce peak seasons.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="grid grid-cols-1 md:grid-cols-4 gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-5 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-bold text-indigo-800 block mb-1"&gt;Phase 1 · Weeks 1–2&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-sm font-bold text-slate-900 mb-2"&gt;Discovery &amp;amp; Architecture&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;ul className="text-xs text-slate-600 space-y-1.5 list-disc pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;AMPM BRD requirement sign-off&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;WhatsApp &amp;amp; Meta business manager integration&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Shopify multi-store API authentication&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Role definitions (Admins, Supervisors, Agents)&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-5 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-bold text-indigo-800 block mb-1"&gt;Phase 2 · Weeks 3–4&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-sm font-bold text-slate-900 mb-2"&gt;Integration &amp;amp; Workflows&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;ul className="text-xs text-slate-600 space-y-1.5 list-disc pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Shopify + Offline POS 360° sync&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Instagram DMs, comments &amp;amp; story routing&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;After-hours &amp;amp; blackout rule automation&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;SLA timers, tier-2 escalation hierarchies&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-5 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-bold text-indigo-800 block mb-1"&gt;Phase 3 · Weeks 5–6&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-sm font-bold text-slate-900 mb-2"&gt;Training &amp;amp; Pilot Run&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;ul className="text-xs text-slate-600 space-y-1.5 list-disc pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Concierge agent &amp;amp; supervisor training&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Pilot launch on 2 Shopify storefronts&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Collision detection &amp;amp; takeover calibration&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Agent Assist template tuning&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div className="border border-slate-200 rounded-xl p-5 bg-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span className="text-xs font-bold text-indigo-800 block mb-1"&gt;Phase 4 · Weeks 7–8&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 className="text-sm font-bold text-slate-900 mb-2"&gt;Full Go-Live &amp;amp; Optimization&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;ul className="text-xs text-slate-600 space-y-1.5 list-disc pl-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Go-live across all 6 Shopify stores&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Centralized offline boutique desk activation&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Executive KPI dashboard review&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;li&gt;Post-purchase automated journey activation&lt;/li&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/ul&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{/* Document Footer */}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer className="p-6 md:p-8 bg-slate-900 text-slate-400 text-xs flex flex-col md:flex-row items-center justify-between gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span className="font-semibold text-slate-200"&gt;ThinkOwl Strategic Assessment for AMPM&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span className="mx-2"&gt;·&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span&gt;Presentation &amp;amp; PDF-Ready Executive Dossier&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div className="text-slate-500 font-mono text-[11px]"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Confidential · Prepared for AMPM Executive Board · October 2026</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/article&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>);</p>
+<p class="p1">}</p>
+</body>
+</html>
